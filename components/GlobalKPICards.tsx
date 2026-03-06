@@ -149,8 +149,13 @@ export function GlobalKPICards() {
     // Get market name from metadata, fallback to "Global Market"
     const marketName = data.metadata.market_name || 'Global Market'
 
+    const allGeographies = data.dimensions.geographies.all_geographies
+    const isSingleGeographyMarket = allGeographies.length === 1
+
     const geographyLabel = actualSelectedGeographies.length === 0
-      ? `Global ${marketName}`
+      ? isSingleGeographyMarket
+        ? marketName
+        : `Global ${marketName}`
       : actualSelectedGeographies.length === 1
       ? marketName.toLowerCase().startsWith(actualSelectedGeographies[0].toLowerCase())
         ? marketName
