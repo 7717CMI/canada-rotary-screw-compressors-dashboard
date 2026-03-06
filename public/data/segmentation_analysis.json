@@ -1,0 +1,43 @@
+{
+  "Canada": {
+    "By Product Type": {
+      "Air Compressors": {},
+      "Gas Compressors": {}
+    },
+    "By Lubrication Type": {
+      "Oil-injected and Oil-lubricated": {},
+      "Oil-free": {}
+    },
+    "By Cooling Method": {
+      "Air-cooled": {},
+      "Water-cooled": {}
+    },
+    "By Power Rating": {
+      "Up to 15 kW": {},
+      "Above 15 kW to 75 kW": {},
+      "Above 75 kW to 160 kW": {},
+      "Above 160 kW": {}
+    },
+    "By Installation Format": {
+      "Floor-mounted": {},
+      "Tank-mounted": {}
+    },
+    "By Sales Channel": {
+      "Direct OEM": {},
+      "Authorized Distributors and Dealers": {},
+      "System Integrators and Resellers": {}
+    },
+    "By End-use Industry": {
+      "Automotive and Metalworking": {},
+      "Food and Beverage": {},
+      "Pharmaceuticals": {},
+      "Electronics": {},
+      "Energy and Utilities": {},
+      "Oil and Gas": {},
+      "Others (Marine, Mining, etc.)": {}
+    },
+    "By Region": {
+      "Canada": {}
+    }
+  }
+}
